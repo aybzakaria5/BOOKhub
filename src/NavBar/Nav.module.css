@@ -1,0 +1,37 @@
+.Btn_Search{
+    background-color: black;
+    color: #fff;
+}
+.Link{
+    color: #000;
+    margin-left: 40px;
+}
+.logo{
+    margin-left: 60px;
+}
+.logo_image {
+    width: 20px;
+    scale: 5;
+}
+.Search{
+    margin-right: 60px;
+
+}
+
+
+
+
+
+@media screen and (max-width: 993px) {
+    .Link{
+        margin-left: 0;
+    } 
+    .logo{
+        margin-left: 30px;
+    }
+    .Search{
+        margin-right: 0;
+    
+    }
+    
+}
