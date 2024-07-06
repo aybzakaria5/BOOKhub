@@ -1,0 +1,182 @@
+.Container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 0 100px;
+    text-align: center;
+}
+.ImageWrapper {
+    flex: 1;
+    max-width: 50%;
+    padding: 20px;
+    box-sizing: border-box;
+}
+.Container img {
+    width: 100%;
+    height: auto;
+}
+.Content {
+    flex: 1;
+    max-width: 50%;
+    padding: 20px;
+    box-sizing: border-box;
+    text-align: left;
+}
+.Content h1 {
+    font-family: Playfair Display, "Playfair Display-fallback", Lora, "Lora-fallback", Georgia, serif;
+    font-size: 3rem;
+}
+.Content p {
+    font-family: Lora, "Lora-fallback", Georgia, Times, serif;
+    font-size: 18px;   
+}
+.arrow {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.arrow img {
+    display: block;
+    margin: 0 auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 990px) {
+    .Content h1 {
+        font-size: 1.5rem;
+        font-weight: 700;
+    }
+    .Title{
+        font-size: 35px;
+    }
+}
+@media (max-width: 768px) {
+    .Container {
+        flex-direction: column;
+        padding: 40px 10px;
+    }
+    .ImageWrapper, .Content {
+        max-width: 100%;
+        padding: 10px;
+        text-align: center;
+    }
+    .Content {
+        text-align: center;
+    }
+    .Content h1 {
+        font-size: 1.5rem;
+        font-weight: 700;
+    }
+    .Title{
+        font-size: 30px;
+    }
+}
+@media (max-width: 480px) {
+    .Container {
+        flex-direction: column;
+    }
+    .Content {
+        order: 1;
+    }
+    .ImageWrapper {
+        order: 2;
+    }
+    .Title{
+        font-size: 25px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.fist_div {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; 
+    background-color: #f9f9f9; 
+}
+  
+.image {
+    width: 100%;
+    height: auto;
+}
+  
+.textBox {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px 0;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    z-index: 1;
+}
+  
+.textBox h1{
+    margin: 0;
+    font-family: Playfair Display, "Playfair Display-fallback", Lora, "Lora-fallback", Georgia, serif;
+    font-weight: 800;
+    font-size: 54px;
+}
+  
+@media (max-width: 768px) {
+    .fist_div {
+      flex-direction: column;
+    }
+  
+    .textBox {
+      position: relative;
+      top: 0;
+      left: 0;
+      transform: none;
+      background-color: white;
+      margin-bottom: 20px;
+      box-shadow: none;
+    }
+    .textBox h1{
+        font-size: 25px;
+    }
+  
+    .image {
+      width: 100%;
+      height: 30vh;
+      transform: scale(1.1); /* Zoom effect on the image */
+    }
+}
+  
+  

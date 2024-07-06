@@ -1,14 +1,10 @@
-import Nav from "./NavBar/Nav"
-import Cart from "./Cart/Cart"
-import Body from "./Home/Body"
+import Home from './Home/Home'
 
 function App() {
   return (
     <>
+      <Home/>
 
-    <Nav/>
-    <Body/>
-    
 
 
     </>

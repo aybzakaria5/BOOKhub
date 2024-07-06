@@ -1,5 +1,6 @@
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 import Style from './Body.module.css';
+import Testimonial from './Testimonial';
 
 const Body = () => {
     const testimonials = [
@@ -9,52 +10,48 @@ const Body = () => {
             opinion: 'BookBub has revolutionized my reading experience! The personalized deals are amazing.'
         },
         {
-            image: 'https://mir-s3-cdn-cf.behance.net/project_modules/hd/d65ee7111000421.5ff9a76af0694.jpg',
+            image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTcxIzrvthxm_hLa9H0MbSXM126gu_X-JNaXw&s',
             name: 'Adrian Joes',
             opinion: 'I love finding hidden gems through BookBub. It’s my go-to for eBook deals.'
         },
         {
-            image: 'https://mir-s3-cdn-cf.behance.net/project_modules/hd/d65ee7111000421.5ff9a76af0694.jpg',
+            image: 'https://us-tuna-sounds-images.voicemod.net/a7b4c243-8cf7-4471-b1d3-e72479fd6a13-1642928283616.png',
             name: 'David Johnson',
             opinion: 'BookBub makes it easy to discover new books tailored to my interests.'
         },
         {
-            image: 'https://mir-s3-cdn-cf.behance.net/project_modules/hd/d65ee7111000421.5ff9a76af0694.jpg',
+            image: 'https://i.pinimg.com/474x/e8/86/a0/e886a0275586dbde0ea74e5c8325b6f9.jpg',
             name: 'Smith Xavi',
             opinion: 'BookBub makes it easy to discover new books tailored to my interests.'
         },
         {
-            image: 'https://mir-s3-cdn-cf.behance.net/project_modules/hd/d65ee7111000421.5ff9a76af0694.jpg',
+            image: 'https://i.pinimg.com/474x/87/1d/f6/871df6406df3fdb4aaffe940627c1ecf.jpg',
             name: 'Gavi swoot',
             opinion: 'BookBub makes it easy to discover new books tailored to my interests.'
         },
         {
-            image: 'https://mir-s3-cdn-cf.behance.net/project_modules/hd/d65ee7111000421.5ff9a76af0694.jpg',
+            image: 'https://animatedkid.wordpress.com/wp-content/uploads/2017/01/p-analysis-incredible-elastigirl.png',
             name: 'Emma Brown',
             opinion: 'BookBub helps me explore new genres and authors I wouldn\'t have found otherwise.'
         }
     ];
 
-    const [currentSlide, setCurrentSlide] = useState(0);
-
-    useEffect(() => {
-        const interval = setInterval(() => {
-            nextSlide();
-        }, 5000);
-
-        return () => clearInterval(interval);
-    }, []);
-
-    const nextSlide = () => {
-        setCurrentSlide((prevSlide) => (prevSlide + 1) % testimonials.length);
-    };
-
-    const prevSlide = () => {
-        setCurrentSlide((prevSlide) => (prevSlide === 0 ? testimonials.length - 1 : prevSlide - 1));
-    };
+    
 
     return (
         <>
+            {/* <marquee behavior="scroll" direction="right" scrollamount="12">Little Fast Scrolling</marquee> */}
+
+            <div className={Style.fist_div}>
+                <div className={Style.textBox}>
+                    <h1>Amazing deals on bestselling ebooks</h1>
+                </div>
+                <img
+                    src="https://res.cloudinary.com/bookbub/image/upload/f_auto,q_auto,w_3350/welcome/international-desktop-book-shelves-0124-3x"
+                    alt="Book shelves"
+                    className={Style.image}
+                />
+            </div>
             <div>
                 <div className={Style.Container}>
                     <div className={Style.ImageWrapper}>
@@ -82,24 +79,9 @@ const Body = () => {
             </div>
 
             {/* Testimonials Slider */}
-            <div className={Style.Slider}>
-                <h3 className={Style.Title}>Join millions of happy readers.</h3>
-                <div className={Style.Testimonials}>
-                    <div className={`${Style.TestimonialSlider} ${Style.Center}`}>
-                        {testimonials.map((testimonial, index) => (
-                            <div key={index} className={`${Style.Testimonial}`} style={{ transform: `translateX(-${currentSlide * 100}%)` }}>
-                                <img src={testimonial.image} alt={testimonial.name} />
-                                <h3>{testimonial.name}</h3>
-                                <p>{testimonial.opinion}</p>
-                            </div>
-                        ))}
-                    </div>
-                    <div className={Style.Buttons}>
-                        <button className={`${Style.PrevButton} ${Style.NavButton}`} onClick={prevSlide}><i className="bi bi-arrow-left"></i></button>
-                        <button className={`${Style.NextButton} ${Style.NavButton}`} onClick={nextSlide}><i className="bi bi-arrow-right"></i></button>
-                    </div>
-                </div>
-            </div>
+            <Testimonial testimonials ={testimonials}/>
+            
+            {/* After Testimonials  */}
         </>
     );
 };

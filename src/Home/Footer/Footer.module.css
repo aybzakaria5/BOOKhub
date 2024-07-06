@@ -1,0 +1,20 @@
+.footer{
+    padding-top: 100px;
+}
+
+.footer_content{
+    margin:  30px 100px;
+}
+.logo_footer{
+    width: 6rem;
+    padding-bottom: 30px;
+
+}
+
+
+@media screen and (max-width: 993px) {
+    .footer_content{
+        margin:  30px 0 ;
+    }
+    
+}
