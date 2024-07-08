@@ -1,3 +1,41 @@
+.fist_div {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; 
+    background-color: #f9f9f9; 
+}
+  
+.image {
+    width: 100%;
+    height: auto;
+}
+  
+.textBox {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px 0;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    z-index: 1;
+}
+  
+.textBox h1{
+    margin: 0;
+    font-family: Playfair Display, "Playfair Display-fallback", Lora, "Lora-fallback", Georgia, serif;
+    font-weight: 800;
+    font-size: 54px;
+}
+  
+
+
+
+
 .Container {
     display: flex;
     flex-direction: row;
@@ -32,6 +70,9 @@
     font-family: Lora, "Lora-fallback", Georgia, Times, serif;
     font-size: 18px;   
 }
+
+
+
 .arrow {
     display: flex;
     justify-content: center;
@@ -43,6 +84,7 @@
 }
 
 
+/* div of animation */
 
 
 
@@ -120,40 +162,6 @@
 
 
 
-.fist_div {
-    position: relative;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column; 
-    background-color: #f9f9f9; 
-}
-  
-.image {
-    width: 100%;
-    height: auto;
-}
-  
-.textBox {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    background-color: rgba(255, 255, 255, 0.8);
-    padding: 20px 0;
-    border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    text-align: center;
-    z-index: 1;
-}
-  
-.textBox h1{
-    margin: 0;
-    font-family: Playfair Display, "Playfair Display-fallback", Lora, "Lora-fallback", Georgia, serif;
-    font-weight: 800;
-    font-size: 54px;
-}
-  
 @media (max-width: 768px) {
     .fist_div {
       flex-direction: column;
@@ -169,13 +177,13 @@
       box-shadow: none;
     }
     .textBox h1{
-        font-size: 25px;
+        font-size: 1.4rem;
     }
   
     .image {
       width: 100%;
       height: 30vh;
-      transform: scale(1.1); /* Zoom effect on the image */
+      
     }
 }
   

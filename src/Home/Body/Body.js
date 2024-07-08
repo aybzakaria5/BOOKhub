@@ -1,6 +1,8 @@
 import React from 'react';
 import Style from './Body.module.css';
 import Testimonial from './Testimonial';
+import animationData from './Animation - 1720384187337.json';
+import Lottie from 'react-lottie';
 
 const Body = () => {
     const testimonials = [
@@ -36,7 +38,14 @@ const Body = () => {
         }
     ];
 
-    
+    const defaultOptions = {
+        loop: true,
+        autoplay: true,
+        animationData: animationData,
+        rendererSettings: {
+            preserveAspectRatio: 'xMidYMid slice'
+        }
+    };
 
     return (
         <>
@@ -55,7 +64,8 @@ const Body = () => {
             <div>
                 <div className={Style.Container}>
                     <div className={Style.ImageWrapper}>
-                        <img src="https://res.cloudinary.com/bookbub/image/upload/f_auto,q_auto/welcome/coffee-phone_2x" alt="" />
+                        {/* <img src="https://res.cloudinary.com/bookbub/image/upload/f_auto,q_auto/welcome/coffee-phone_2x" alt="" /> */}
+                        <Lottie options={defaultOptions}  />
                     </div>
                     <div className={Style.Content}>
                         <h1>Read the Biggest eBooks for Free</h1>
@@ -78,10 +88,9 @@ const Body = () => {
                 </div>
             </div>
 
-            {/* Testimonials Slider */}
-            <Testimonial testimonials ={testimonials}/>
-            
-            {/* After Testimonials  */}
+            <Testimonial testimonials={testimonials} />
+        
+           
         </>
     );
 };
