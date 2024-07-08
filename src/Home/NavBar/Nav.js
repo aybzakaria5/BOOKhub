@@ -34,11 +34,12 @@ function OffcanvasExample() {
           <Offcanvas.Body>
             
             <Nav className="justify-content-center flex-grow-1">
-              <Nav.Link href="#action1" className={Style.Link}> <i class="bi bi-patch-plus"></i> Add Book</Nav.Link>
-              <Nav.Link href="#action2" className={Style.Link}> <i class="bi bi-x-octagon"></i> Delete Book</Nav.Link>
+              <Nav.Link href="/" className={Style.Link}> <i class="bi bi-house"></i> Home</Nav.Link>
+              <Nav.Link href="/about" className={Style.Link}> <i class="bi bi-file-earmark-person"></i> About</Nav.Link>
+              <Nav.Link href="/catalogue" className={Style.Link}> <i class="bi bi-book"></i> Catalogue</Nav.Link>
             </Nav>
             
-            <Form className={`d-flex ${Style.Search}`}>
+            {/* <Form className={`d-flex ${Style.Search}`}>
               <Form.Control
                 type="search"
                 placeholder="Search"
@@ -46,7 +47,7 @@ function OffcanvasExample() {
                 aria-label="Search"
               />
               <Button variant="outline-success" className={Style.Btn_Search}>Search</Button>
-            </Form>
+            </Form> */}
           </Offcanvas.Body>
         </Navbar.Offcanvas>
       </Container>
