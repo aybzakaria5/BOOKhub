@@ -1,6 +1,6 @@
 import React from 'react';
 import Style from './Categorie.module.css';
-import { Card as BootstrapCard, Button } from 'react-bootstrap';
+import { Card as BootstrapCard} from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 export const Categorie = () => {
@@ -27,8 +27,9 @@ export const Categorie = () => {
                             <BootstrapCard.Text>
                                 100 items
                             </BootstrapCard.Text>
-
-                            <button className={Style.btnn}> See Books</button>
+                            <div className={Style.btnn}>
+                                <a href={`/books/${category.name}`} className={Style.btnn}> See Books</a>
+                            </div>
                         </BootstrapCard.Body>
                     </BootstrapCard>
                 ))}

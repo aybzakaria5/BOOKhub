@@ -32,13 +32,17 @@
     color: #000;
     margin: 20px 0;
     padding: 10px 10px;
-    cursor: pointer;
+    
+}
+
+.btnn a {
     border: 1px solid #000;
     border-radius: 25px;
     transition: 0.5s ease-in-out;
+    cursor: pointer;
 }
 
-.btnn:hover {
+.btnn a:hover {
     background: #000;
     color: #fff;
 }
