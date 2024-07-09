@@ -4,309 +4,396 @@
             "id": 1,
             "title": "Into Thin Air",
             "author": "Jon Krakauer",
-            "cover": "https://paulinaontheroad.com/wp-content/uploads/2023/12/512t9z6JLLL._SL500_.jpg.webp"
+            "cover": "https://paulinaontheroad.com/wp-content/uploads/2023/12/512t9z6JLLL._SL500_.jpg.webp",
+            "description": "A gripping firsthand account of a disastrous expedition to Everest in 1996, where Krakauer explores the perilous world of high-altitude climbing and the human spirit's resilience and frailty."
         },
         {
             "id": 2,
             "title": "Moby-Dick",
             "author": "Herman Melville",
-            "cover": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSE9EdW4IsRCSJYyJxefVVsEaZb7CwX4HXVg4Rc28uv64vLhP26"
+            "cover": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSE9EdW4IsRCSJYyJxefVVsEaZb7CwX4HXVg4Rc28uv64vLhP26",
+            "description": "A classic novel that follows the obsessive quest of Captain Ahab for revenge against Moby Dick, the gigantic white sperm whale."
         },
         {
             "id": 3,
-            "title": "Into Thin Air",
-            "author": "Jon Krakauer",
-            "cover": "https://paulinaontheroad.com/wp-content/uploads/2023/12/512t9z6JLLL._SL500_.jpg.webp"
+            "title": "The Count of Monte Cristo",
+            "author": "Alexandre Dumas",
+            "cover": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1692339248i/197029269.jpg",
+            "description": "The Count of Monte Cristo is the story of betrayal, love, and redemption. The story follows Edmund Dantes through imprisonment, freedom, and revenge spanning nearly his entire life. After meeting Abbe Faria, the priest, while imprisoned, Dantes learns the location of the treasure of Monte Cristo."
         },
         {
             "id": 4,
             "title": "The Hobbit",
             "author": "John Ronald Reuel Tolkien",
-            "cover": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcRRxdD7tWquroN4RfhCCpDQeOD7q4DnTHqUpp8gdAW9hzhoSftn"
+            "cover": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcRRxdD7tWquroN4RfhCCpDQeOD7q4DnTHqUpp8gdAW9hzhoSftn",
+            "description": "A fantasy novel that follows the adventures of Bilbo Baggins as he embarks on a quest to reclaim the dwarf kingdom of Erebor from the dragon Smaug."
         },
         {
             "id": 5,
             "title": "Harry Potter and the Philosopher's Stone",
             "author": "J. K. Rowling",
-            "cover": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQtFKRzqIPBTYkse7NKIPTjw0ggQB02c636StmC1mONyQwec4x1"
+            "cover": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQtFKRzqIPBTYkse7NKIPTjw0ggQB02c636StmC1mONyQwec4x1",
+            "description": "The first book in the Harry Potter series, it follows the journey of a young wizard, Harry Potter, who discovers his magical heritage and begins his education at Hogwarts School of Witchcraft and Wizardry."
         },
         {
             "id": 6,
             "title": "Treasure Island",
             "author": "Robert Louis Stevenson",
-            "cover": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcR_AqOfDPs9ufnpFhFmLzdHs-vGLnKta9W_L28oV-g0epU0MkYI"
+            "cover": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcR_AqOfDPs9ufnpFhFmLzdHs-vGLnKta9W_L28oV-g0epU0MkYI",
+            "description": "An adventure novel that tells the tale of young Jim Hawkins and his encounters with pirates, buried treasure, and the infamous Long John Silver."
         }
     ],
+
+
+
+
+
+
     "Romance": [
         {
             "id": 1,
             "title": "Pride and Prejudice",
             "author": "Jane Austen",
-            "cover": "https://m.media-amazon.com/images/I/81OthjkJBuL._AC_UY327_FMwebp_QL65_.jpg"
+            "cover": "https://m.media-amazon.com/images/I/81OthjkJBuL._AC_UY327_FMwebp_QL65_.jpg",
+            "description": "A classic novel by Jane Austen, depicting the social norms and romantic entanglements of 19th-century English society, focusing on the spirited Elizabeth Bennet and the proud Mr. Darcy."
         },
         {
             "id": 2,
             "title": "The Notebook",
             "author": "Nicholas Sparks",
-            "cover": "https://upload.wikimedia.org/wikipedia/en/d/d9/The_Notebook_Cover.jpg"
+            "cover": "https://upload.wikimedia.org/wikipedia/en/d/d9/The_Notebook_Cover.jpg",
+            "description": "A poignant love story set in the 1940s, following the enduring romance between Noah Calhoun and Allie Nelson, spanning decades of separation and reconnection."
         },
         {
             "id": 3,
             "title": "Outlander",
             "author": "Diana Gabaldon",
-            "cover": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1659086907i/10964.jpg"
+            "cover": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1659086907i/10964.jpg",
+            "description": "A blend of romance, historical fiction, and time travel, Outlander tells the story of Claire Randall, a World War II nurse who is transported back to 18th-century Scotland, where she falls in love with the dashing Jamie Fraser."
         },
         {
             "id": 4,
             "title": "Me Before You",
             "author": "Jojo Moyes",
-            "cover": "https://covers.storytel.com/jpg-640/9781471201097.2d657f53-80e8-4ad9-a96b-6f329af88021?quality=70"
+            "cover": "https://covers.storytel.com/jpg-640/9781471201097.2d657f53-80e8-4ad9-a96b-6f329af88021?quality=70",
+            "description": "A heart-wrenching tale of Louisa Clark, who becomes a caregiver for Will Traynor, a quadriplegic. As their relationship evolves, they both discover the transformative power of love and human connection."
         },
         {
             "id": 5,
             "title": "Twilight",
             "author": "Stephenie Meyer",
-            "cover": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1700522826i/41865.jpg"
+            "cover": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1700522826i/41865.jpg",
+            "description": "The first book in the Twilight series, it follows the romance between Bella Swan, a teenage girl, and Edward Cullen, a vampire. Their relationship faces challenges from both supernatural forces and human emotions."
         },
         {
             "id": 6,
             "title": "The Time Traveler's Wife",
             "author": "Audrey Niffenegger",
-            "cover": "https://d28hgpri8am2if.cloudfront.net/book_images/onix/cvr9781476764832/the-time-travelers-wife-9781476764832_hr.jpg"
+            "cover": "https://d28hgpri8am2if.cloudfront.net/book_images/onix/cvr9781476764832/the-time-travelers-wife-9781476764832_hr.jpg",
+            "description": "A love story with a twist of time travel, focusing on the complex relationship between Clare Abshire and Henry DeTamble. Henry has a genetic disorder that causes him to unpredictably time travel, affecting their lives and love."
         }
     ],
 
-    "Thriller": [
+
+
+
+"Thriller": [
         {
             "id": 1,
             "title": "The Girl with the Dragon Tattoo",
             "author": "Stieg Larsson",
-            "cover": "https://m.media-amazon.com/images/I/61Qs-hoZ-TL._AC_UF1000,1000_QL80_.jpg"
+            "cover": "https://m.media-amazon.com/images/I/61Qs-hoZ-TL._AC_UF1000,1000_QL80_.jpg",
+            "description": "A gripping thriller that introduces Lisbeth Salander, a brilliant hacker, and Mikael Blomkvist, an investigative journalist. Together, they delve into the dark secrets of a wealthy family."
         },
         {
             "id": 2,
             "title": "Gone Girl",
             "author": "Gillian Flynn",
-            "cover": "https://cdn.waterstones.com/bookjackets/large/9780/7538/9780753827666.jpg"
+            "cover": "https://cdn.waterstones.com/bookjackets/large/9780/7538/9780753827666.jpg",
+            "description": "A psychological thriller that explores the disappearance of Amy Dunne and the suspicion falling on her husband, Nick. The narrative twists and turns reveal shocking truths about their marriage."
         },
         {
             "id": 3,
             "title": "The Silent Patient",
             "author": "Alex Michaelides",
-            "cover": "https://cdn.kobo.com/book-images/c0e785d2-826a-4a87-a262-076ca94813a2/353/569/90/False/the-silent-patient-2.jpg"
+            "cover": "https://cdn.kobo.com/book-images/c0e785d2-826a-4a87-a262-076ca94813a2/353/569/90/False/the-silent-patient-2.jpg",
+            "description": "A psychological mystery where Alicia Berenson, a famous painter, shoots her husband and then stops speaking. Theo Faber, a forensic psychologist, is determined to uncover the truth behind her silence."
         },
         {
             "id": 4,
             "title": "The Da Vinci Code",
             "author": "Dan Brown",
-            "cover": "https://m.media-amazon.com/images/I/811nqCf7o1L._AC_UF1000,1000_QL80_.jpg"
+            "cover": "https://m.media-amazon.com/images/I/811nqCf7o1L._AC_UF1000,1000_QL80_.jpg",
+            "description": "A fast-paced thriller where symbologist Robert Langdon and cryptologist Sophie Neveu follow clues in Leonardo da Vinci's art to uncover a secret that could shake the foundations of Christianity."
         },
         {
             "id": 5,
             "title": "The Girl on the Train",
             "author": "Paula Hawkins",
-            "cover": "https://images-na.ssl-images-amazon.com/images/I/715uXU7CX3L.jpg?w=144"
+            "cover": "https://images-na.ssl-images-amazon.com/images/I/715uXU7CX3L.jpg?w=144",
+            "description": "A psychological thriller centered on Rachel Watson, who becomes entangled in a missing person investigation. Her obsessive observations from the train window lead her to uncover dark truths."
         },
         {
             "id": 6,
             "title": "Big Little Lies",
             "author": "Liane Moriarty",
-            "cover": "https://images.penguinrandomhouse.com/cover/9780425274866"
+            "cover": "https://images.penguinrandomhouse.com/cover/9780425274866",
+            "description": "A suspenseful story set in a seaside town, where a seemingly perfect school fundraiser turns sinister. The lives of three women, each with their own secrets, intertwine as past events resurface."
         }
     ],
+
+
+
+
+
 
     "Memoir": [
         {
             "id": 1,
             "title": "Educated",
             "author": "Tara Westover",
-            "cover": "https://images-na.ssl-images-amazon.com/images/I/81WojUxbbFL.jpg"
+            "cover": "https://images-na.ssl-images-amazon.com/images/I/81WojUxbbFL.jpg",
+            "description": "Tara Westover recounts her upbringing in a strict Mormon family in rural Idaho, isolated from mainstream society. Through self-education, she breaks free from her tumultuous past to achieve academic success."
         },
         {
             "id": 2,
             "title": "Becoming",
             "author": "Michelle Obama",
-            "cover": "https://images-na.ssl-images-amazon.com/images/I/81h2gWPTYJL.jpg"
+            "cover": "https://images-na.ssl-images-amazon.com/images/I/81h2gWPTYJL.jpg",
+            "description": "Michelle Obama shares her journey from the South Side of Chicago to becoming the First Lady of the United States. She reflects on her experiences, accomplishments, and challenges, offering personal insights."
         },
         {
             "id": 3,
             "title": "The Glass Castle",
             "author": "Jeannette Walls",
-            "cover": "https://m.media-amazon.com/images/I/81wJn3SMKGL._AC_UF894,1000_QL80_.jpg"
+            "cover": "https://m.media-amazon.com/images/I/81wJn3SMKGL._AC_UF894,1000_QL80_.jpg",
+            "description": "Jeannette Walls recounts her unconventional and often troubled childhood with dysfunctional parents who led a nomadic life. Despite hardships, her resilience and determination lead her to personal success."
         },
         {
             "id": 4,
             "title": "Wild",
             "author": "Cheryl Strayed",
-            "cover": "https://images-na.ssl-images-amazon.com/images/I/71QKQ9mwV7L.jpg"
+            "cover": "https://images-na.ssl-images-amazon.com/images/I/71QKQ9mwV7L.jpg",
+            "description": "Cheryl Strayed embarks on a solo hike of the Pacific Crest Trail, seeking healing and self-discovery after personal tragedies. Her journey through rugged terrain becomes a transformative experience."
         },
         {
             "id": 5,
             "title": "When Breath Becomes Air",
             "author": "Paul Kalanithi",
-            "cover": "https://m.media-amazon.com/images/I/91iZ2ZQduBL._AC_UF1000,1000_QL80_.jpg"
+            "cover": "https://m.media-amazon.com/images/I/91iZ2ZQduBL._AC_UF1000,1000_QL80_.jpg",
+            "description": "Paul Kalanithi, a neurosurgeon diagnosed with terminal cancer, reflects on life, mortality, and the intersection of medicine and literature. His memoir explores profound questions about existence and purpose."
         },
         {
             "id": 6,
             "title": "Steve Jobs",
             "author": "Walter Isaacson",
-            "cover": "https://images-na.ssl-images-amazon.com/images/I/81VStYnDGrL.jpg"
+            "cover": "https://images-na.ssl-images-amazon.com/images/I/81VStYnDGrL.jpg",
+            "description": "Walter Isaacson provides an intimate portrait of Steve Jobs, co-founder of Apple Inc., delving into his visionary leadership, creative genius, and personal complexities that shaped the digital age."
         }
     ],
+
+
+
+
+
+
+
 
     "Travel": [
         {
             "id": 1,
             "title": "Into the Wild",
             "author": "Jon Krakauer",
-            "cover": "https://c8.alamy.com/comp/2H0R31R/book-cover-into-the-wild-by-jon-krakauer-2H0R31R.jpg"
+            "cover": "https://c8.alamy.com/comp/2H0R31R/book-cover-into-the-wild-by-jon-krakauer-2H0R31R.jpg",
+            "description": "Jon Krakauer tells the true story of Christopher McCandless, a young man who gave up his possessions, donated his savings to charity, and hitchhiked to Alaska to live in the wilderness. His journey explores themes of adventure, self-discovery, and the wildness of nature."
         },
         {
             "id": 2,
             "title": "A Walk in the Woods",
             "author": "Bill Bryson",
-            "cover": "https://m.media-amazon.com/images/I/51avHY1QAfL._AC_UF1000,1000_QL80_.jpg"
+            "cover": "https://m.media-amazon.com/images/I/51avHY1QAfL._AC_UF1000,1000_QL80_.jpg",
+            "description": "Bill Bryson recounts his attempt to hike the Appalachian Trail, a 2,200-mile-long path through the eastern United States. With humor and insight, Bryson explores the natural beauty and challenges of the trail."
         },
         {
             "id": 3,
             "title": "The Geography of Bliss",
             "author": "Eric Weiner",
-            "cover": "https://m.media-amazon.com/images/I/71aH0E84VpL._AC_UF894,1000_QL80_.jpg"
+            "cover": "https://m.media-amazon.com/images/I/71aH0E84VpL._AC_UF894,1000_QL80_.jpg",
+            "description": "Eric Weiner travels the world in search of the happiest places on Earth, exploring different cultures and philosophies of happiness. His journey combines travelogue with insights into the human quest for contentment."
         },
         {
             "id": 4,
             "title": "Vagabonding",
             "author": "Rolf Potts",
-            "cover": "https://rolfpotts.com/wp-content/uploads/2022/05/VagabondsWay.jpg"
+            "cover": "https://rolfpotts.com/wp-content/uploads/2022/05/VagabondsWay.jpg",
+            "description": "Rolf Potts advocates for long-term travel as a way to break out of routine and embrace cultural immersion. He offers practical advice and philosophical insights for aspiring vagabonds seeking meaningful experiences abroad."
         },
         {
             "id": 5,
             "title": "In Patagonia",
             "author": "Bruce Chatwin",
-            "cover": "https://m.media-amazon.com/images/I/7180QwdgUKL._AC_UF1000,1000_QL80_.jpg"
+            "cover": "https://m.media-amazon.com/images/I/7180QwdgUKL._AC_UF1000,1000_QL80_.jpg",
+            "description": "Bruce Chatwin's travel memoir chronicles his journey through Patagonia, a remote region at the southern tip of South America. He delves into its landscapes, history, and the stories of the people he encounters."
         },
         {
             "id": 6,
             "title": "The Alchemist",
             "author": "Paulo Coelho",
-            "cover": "https://images-na.ssl-images-amazon.com/images/I/71aFt4+OTOL.jpg"
+            "cover": "https://images-na.ssl-images-amazon.com/images/I/71aFt4+OTOL.jpg",
+            "description": "Paulo Coelho's allegorical novel follows Santiago, a shepherd boy, on a journey across the desert in search of a hidden treasure. Along the way, he discovers wisdom about life's journey and the pursuit of dreams."
         }
     ],
 
+
+
+
+
+
+    
     "Health": [
         {
             "id": 1,
             "title": "How Not to Die",
             "author": "Michael Greger",
-            "cover": "https://m.media-amazon.com/images/I/81RvGjUWqlL._AC_UF1000,1000_QL80_.jpg"
+            "cover": "https://m.media-amazon.com/images/I/81RvGjUWqlL._AC_UF1000,1000_QL80_.jpg",
+            "description": "Michael Greger examines the top causes of premature death and offers evidence-based dietary and lifestyle approaches to prevent and reverse chronic diseases."
         },
         {
             "id": 2,
             "title": "The Blue Zones Solution",
             "author": "Dan Buettner",
-            "cover": "https://m.media-amazon.com/images/I/71k5-zrvlHL._AC_UF1000,1000_QL80_.jpg"
+            "cover": "https://m.media-amazon.com/images/I/71k5-zrvlHL._AC_UF1000,1000_QL80_.jpg",
+            "description": "Dan Buettner explores the lifestyles of the world's longest-lived populations and shares practical tips for achieving longevity and well-being based on Blue Zones principles."
         },
         {
             "id": 3,
             "title": "The Whole30",
             "author": "Melissa Hartwig Urban",
-            "cover": "https://m.media-amazon.com/images/I/819XBiSObYL._AC_UF1000,1000_QL80_.jpg"
+            "cover": "https://m.media-amazon.com/images/I/819XBiSObYL._AC_UF1000,1000_QL80_.jpg",
+            "description": "Melissa Hartwig Urban presents a 30-day nutritional reset program to help identify and eliminate foods that may be adversely affecting health and well-being."
         },
         {
             "id": 4,
             "title": "The Plant Paradox",
             "author": "Steven R. Gundry",
-            "cover": "https://m.media-amazon.com/images/I/812gRUpG4PL._AC_UF1000,1000_QL80_.jpg"
+            "cover": "https://m.media-amazon.com/images/I/812gRUpG4PL._AC_UF1000,1000_QL80_.jpg",
+            "description": "Steven R. Gundry challenges traditional dietary advice by exploring the impact of lectins in plants and offers a plan for a lectin-free diet to improve health."
         },
         {
             "id": 5,
             "title": "Why We Sleep",
             "author": "Matthew Walker",
-            "cover": "https://booksondemand.ma/cdn/shop/products/whywesleep.jpg?v=1609500813"
+            "cover": "https://booksondemand.ma/cdn/shop/products/whywesleep.jpg?v=1609500813",
+            "description": "Matthew Walker delves into the science of sleep, explaining its vital role in physical and mental health, and offers insights into improving sleep quality for overall well-being."
         },
         {
             "id": 6,
             "title": "Atomic Habits",
             "author": "James Clear",
-            "cover": "https://booksondemand.ma/cdn/shop/products/Atomichabits-min.jpg?v=1631701304"
+            "cover": "https://booksondemand.ma/cdn/shop/products/Atomichabits-min.jpg?v=1631701304",
+            "description": "James Clear presents a practical guide to building good habits and breaking bad ones using small, incremental changes. He explores the science behind habit formation and behavior change."
         }
     ],
+
+
+
+
+
+
 
     "Poetry": [
         {
             "id": 1,
             "title": "Milk and Honey",
             "author": "Rupi Kaur",
-            "cover": "https://images.gr-assets.com/books/1491595510l/23513349.jpg"
+            "cover": "https://images.gr-assets.com/books/1491595510l/23513349.jpg",
+            "description": "Rupi Kaur's collection of poetry and prose explores themes of love, loss, trauma, healing, and femininity. Her raw and honest verses are accompanied by illustrations, creating a deeply personal narrative."
         },
         {
             "id": 2,
             "title": "The Sun and Her Flowers",
             "author": "Rupi Kaur",
-            "cover": "https://booksondemand.ma/cdn/shop/products/41H7E-gBdvL-min.jpg?v=1631701542"
+            "cover": "https://booksondemand.ma/cdn/shop/products/41H7E-gBdvL-min.jpg?v=1631701542",
+            "description": "Rupi Kaur continues her exploration of themes like love, growth, healing, and resilience in her second poetry collection. Her minimalist style and evocative language resonate with readers seeking emotional depth."
         },
         {
             "id": 3,
             "title": "Ariel",
             "author": "Sylvia Plath",
-            "cover": "https://m.media-amazon.com/images/I/61H-14EGZQL._AC_UF1000,1000_QL80_.jpg"
+            "cover": "https://m.media-amazon.com/images/I/61H-14EGZQL._AC_UF1000,1000_QL80_.jpg",
+            "description": "Sylvia Plath's posthumous collection showcases her hauntingly introspective poems that delve into themes of mental illness, identity, and mortality. Her work is celebrated for its confessional style and lyrical intensity."
         },
         {
             "id": 4,
             "title": "Leaves of Grass",
             "author": "Walt Whitman",
-            "cover": "https://m.media-amazon.com/images/I/81TR5FC0OmS._AC_UF1000,1000_QL80_.jpg"
+            "cover": "https://m.media-amazon.com/images/I/81TR5FC0OmS._AC_UF1000,1000_QL80_.jpg",
+            "description": "Walt Whitman's groundbreaking collection of poems celebrates the beauty of the American landscape, democracy, and the interconnectedness of all living beings. His free verse and exuberant spirit redefine American poetry."
         },
         {
             "id": 5,
             "title": "The Waste Land",
             "author": "T.S. Eliot",
-            "cover": "https://m.media-amazon.com/images/I/61r93iIsfNL._AC_UF1000,1000_QL80_.jpg"
+            "cover": "https://m.media-amazon.com/images/I/61r93iIsfNL._AC_UF1000,1000_QL80_.jpg",
+            "description": "T.S. Eliot's modernist masterpiece reflects the disillusionment and fragmentation of post-World War I society. Through fragmented verse and rich symbolism, he explores themes of decay, spirituality, and cultural crisis."
         },
         {
             "id": 6,
             "title": "Selected Poems",
             "author": "Emily Dickinson",
-            "cover": "https://m.media-amazon.com/images/I/91DQkA5ZfBL._AC_UF1000,1000_QL80_.jpg"
+            "cover": "https://m.media-amazon.com/images/I/91DQkA5ZfBL._AC_UF1000,1000_QL80_.jpg",
+            "description": "Emily Dickinson's selected poems offer glimpses into her unique poetic voice, exploring themes of nature, mortality, love, and the human experience. Her concise yet profound verses continue to resonate with readers."
         }
     ],
+
+
+
+
+
+    
 
    "Cooking": [
         {
             "id": 1,
             "title": "The Joy of Cooking",
             "author": "Irma S. Rombauer",
-            "cover": "https://m.media-amazon.com/images/I/71E38BP7AlL._AC_UF1000,1000_QL80_.jpg"
+            "cover": "https://m.media-amazon.com/images/I/71E38BP7AlL._AC_UF1000,1000_QL80_.jpg",
+            "description": "Irma S. Rombauer's classic cookbook offers a comprehensive collection of recipes ranging from everyday meals to special occasions. It is known for its practical approach, clear instructions, and timeless appeal."
         },
         {
             "id": 2,
             "title": "Salt, Fat, Acid, Heat",
             "author": "Samin Nosrat",
-            "cover": "https://m.media-amazon.com/images/I/718Qpw4miiL._AC_UF1000,1000_QL80_.jpg"
+            "cover": "https://m.media-amazon.com/images/I/718Qpw4miiL._AC_UF1000,1000_QL80_.jpg",
+            "description": "Samin Nosrat explores the fundamental elements of cooking—salt, fat, acid, and heat—and how mastering them can empower home cooks to create delicious dishes with confidence and creativity."
         },
         {
             "id": 3,
             "title": "The Food Lab",
             "author": "J. Kenji López-Alt",
-            "cover": "https://m.media-amazon.com/images/I/515afUMn3aL._AC_UF1000,1000_QL80_.jpg"
+            "cover": "https://m.media-amazon.com/images/I/515afUMn3aL._AC_UF1000,1000_QL80_.jpg",
+            "description": "J. Kenji López-Alt applies scientific principles to cooking in this comprehensive guide, offering tested recipes and explaining the science behind cooking techniques to help readers understand and improve their culinary skills."
         },
         {
             "id": 4,
             "title": "Mastering the Art of French Cooking",
             "author": "Julia Child",
-            "cover": "https://m.media-amazon.com/images/I/61f1m7ySZQL._AC_UF1000,1000_QL80_.jpg"
+            "cover": "https://m.media-amazon.com/images/I/61f1m7ySZQL._AC_UF1000,1000_QL80_.jpg",
+            "description": "Julia Child's seminal work on French cuisine introduces readers to classic French cooking techniques and recipes, providing detailed instructions and encouraging a spirit of exploration and enjoyment in the kitchen."
         },
         {
             "id": 5,
             "title": "Plenty",
             "author": "Yotam Ottolenghi",
-            "cover": "https://m.media-amazon.com/images/I/61Uv2Hf1hnL.jpg"
+            "cover": "https://m.media-amazon.com/images/I/61Uv2Hf1hnL.jpg",
+            "description": "Yotam Ottolenghi's cookbook celebrates vibrant vegetarian dishes inspired by Mediterranean flavors and global culinary influences. It offers innovative recipes that emphasize fresh, seasonal ingredients."
         },
         {
             "id": 6,
             "title": "Essentials of Classic Italian Cooking",
             "author": "Marcella Hazan",
-            "cover": "https://m.media-amazon.com/images/I/81Ewllf1UnL._AC_UF1000,1000_QL80_.jpg"
+            "cover": "https://m.media-amazon.com/images/I/81Ewllf1UnL._AC_UF1000,1000_QL80_.jpg",
+            "description": "Marcella Hazan presents a comprehensive guide to traditional Italian cooking, covering essential techniques and authentic recipes that highlight the simplicity and quality of Italian cuisine."
         }
     ]
 

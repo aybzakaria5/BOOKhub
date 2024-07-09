@@ -34,20 +34,16 @@ function OffcanvasExample() {
           <Offcanvas.Body>
             
             <Nav className="justify-content-center flex-grow-1">
-              <Nav.Link href="/" className={Style.Link}> <i class="bi bi-house"></i> Home</Nav.Link>
-              <Nav.Link href="/about" className={Style.Link}> <i class="bi bi-file-earmark-person"></i> About</Nav.Link>
-              <Nav.Link href="/catalogue" className={Style.Link}> <i class="bi bi-book"></i> Catalogue</Nav.Link>
+              <Nav.Link href="/" className={Style.Link}>Home</Nav.Link>
+              <Nav.Link href="/about" className={Style.Link}>About</Nav.Link>
+              <Nav.Link href="/catalogue" className={Style.Link}>Shelf</Nav.Link>
+              <Nav.Link href="/contact" className={Style.Link}>Contact</Nav.Link>
             </Nav>
             
-            {/* <Form className={`d-flex ${Style.Search}`}>
-              <Form.Control
-                type="search"
-                placeholder="Search"
-                className="me-2"
-                aria-label="Search"
-              />
-              <Button variant="outline-success" className={Style.Btn_Search}>Search</Button>
-            </Form> */}
+            <div className={Style.Btn_s}>
+              <Button  className={Style.Btns}>Sign up </Button>
+              <Button  className={Style.Btns}>Sign in</Button>
+            </div>
           </Offcanvas.Body>
         </Navbar.Offcanvas>
       </Container>

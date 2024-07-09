@@ -1,60 +1,138 @@
 .title {
-    margin-top: 50px;
+    margin: 50px 0;
     font-size: 2em;
     color: #333;
     font-family: Playfair Display, "Playfair Display-fallback", Lora, "Lora-fallback", Georgia, serif;
     text-align: center;
 }
 
+.gridContainer {
+    margin: 0 200px;
+}
 
-.container{
-    margin:  0 200px;
+.booksContainer {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
 }
 
-
-.category{
+.bookContainer {
     width: 18rem;
-    margin-top: 60px;
+    margin-top: 50px;
+    transition: all 0.3s ease-in-out;
+}
+
+.category {
     border-radius: 12px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); 
+    cursor: pointer;
     transition: transform 0.3s, box-shadow 0.3s;
 }
- 
+
 .category:hover {
     transform: translateY(-10px);
     box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2); 
 }
 
-.btnn {
-    color: #000;
-    margin: 20px 0;
-    padding: 10px 10px;
-    
+.infoRow {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    justify-content: center;
+    flex-wrap: wrap; 
 }
 
-.btnn a {
-    border: 1px solid #000;
-    border-radius: 25px;
-    transition: 0.5s ease-in-out;
+.selectedCategory {
+    width: 18rem;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+/* info cart */
+.info {
+    background: #fff;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    max-width: 100%; 
+    width: 67%;
+    margin: 0 auto;
+}
+.header_info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header_info a {
+    font-size: 25px;
     cursor: pointer;
 }
 
-.btnn a:hover {
-    background: #000;
-    color: #fff;
+.info_image {
+    width: 10vw;
+    margin: 20px auto;
 }
 
+.info h2 {
+    font-size: 20px;
+    font-family: Playfair Display, "Playfair Display-fallback", Lora, "Lora-fallback", Georgia, serif;
+}
+
+.info p {
+    font-size: 20px;
+    font-family: Playfair Display, "Playfair Display-fallback", Lora, "Lora-fallback", Georgia, serif;
+}
+
+.hidden {
+    display: none;
+}
+
+@media screen and (max-width: 1290px) {
+    .bookContainer {
+        margin: 20px;
+    }
+}
+
+@media screen and (max-width: 1165px) {
+    .bookContainer {
+        margin: 30px 0;
+    }
+}
 
 @media screen and (max-width: 993px) {
-    .container{
+    .title {
+        font-size: 1.4em;
+    }
+    .bookContainer {
+        padding: 20px;
+        margin-top: 10px;
+    }
+    .infoRow {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+    .selectedCategory {
+       width: 18rem;
+       margin: 20px auto;
+    }
+    .info {
+        width: 90%;
+        max-width: none; 
+        margin-bottom: 20px;
+    }
+    .gridContainer {
         margin: 0;
     }
-    .title{
+    .title {
         width: 70vw;
         margin: 0 auto;
         margin-top: 50px;
-     }
+    }
+    .info_image {
+        width: 40vw;
+    }
 }
