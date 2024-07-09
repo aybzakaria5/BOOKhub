@@ -41,8 +41,7 @@ function OffcanvasExample() {
             </Nav>
             
             <div className={Style.Btn_s}>
-              <Button  className={Style.Btns}>Sign up </Button>
-              <Button  className={Style.Btns}>Sign in</Button>
+              <a href="sign"><Button  className={Style.Btns}>Sign in</Button></a>
             </div>
           </Offcanvas.Body>
         </Navbar.Offcanvas>

@@ -1,16 +1,33 @@
 import React from 'react'
-import NavBar from '../Home/NavBar/Nav'
-import Footer from '../Home/Footer/Footer'
+import styles from './Contact.module.css'
 
 const Contact = () => {
   return (
     <>
-        <NavBar/>
+      <div className={styles.background}>
+        <div className={styles.content}>
+          <h1>Contact Us</h1>
+          <p>Questions, bug reports, feedback, feature requests — we're here for it all.</p>
+        </div>
+      </div>
 
-        {/* footer */}
-        <Footer/>
-    
-    
+      <div className={styles.divForm}>
+        <form className={styles.contactForm}>
+          <label>
+            Your Email Address
+            <input type="email" placeholder="you@example.com" required />
+          </label>
+          <label>
+            Subject
+            <input type="text" required />
+          </label>
+          <label>
+            How can we help?
+            <textarea required></textarea>
+          </label>
+          <button type="submit">Send</button>
+        </form>
+      </div>
     </>
   )
 }
