@@ -8,6 +8,8 @@ import Contact from './Contact/Contact';
 
 function App() {
   return (
+
+    // {s}
     <Router>
       <Routes>
         <Route path="/" element={<Home />} />
