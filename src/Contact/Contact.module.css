@@ -1,0 +1,100 @@
+.background {
+    background-color: #1c1c1c; /* Or use an image: background-image: url('path/to/image.jpg'); */
+    background-size: cover;
+    background-position: center;
+    padding: 50px 20px;
+    position: relative;
+}
+  
+.content {
+    text-align: center;
+    color: white;
+    max-width: 80%; 
+    margin: 0 auto; 
+    font-family: 'Helvetica Neue', Helvetica, sans-serif;
+}
+  
+.content h1 {
+    margin: 0;
+    font-size: 3rem;
+}
+  
+.content p {
+    margin: 20px 0 30px 0;
+    font-size: 20px;
+}
+  
+.divForm {
+    max-width: 600px;
+    margin: -30px auto 0 auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    position: relative;
+    z-index: 1; 
+}
+  
+.contactForm {
+    display: flex;
+    flex-direction: column;
+}
+  
+.contactForm label {
+    margin-bottom: 10px;
+    color: #333;
+}
+  
+.contactForm input, .contactForm textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+  
+.contactForm input:focus, 
+.contactForm textarea:focus {
+    border-color: #000000;
+    box-shadow: 0 0 0px rgba(0, 0, 0, 0.5);
+}
+.contactForm textarea {
+    resize: vertical;
+}
+  
+.contactForm button {
+    padding: 10px;
+    background-color: #1c1c1c;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+  
+.contactForm button:hover {
+    background-color: #000000;
+}
+  
+
+  
+  
+
+@media (max-width: 600px) {
+    .divForm {
+        padding: 50px 10px 10px 10px;
+    }
+    .content h1 {
+        font-size: 2rem;
+    }
+      
+    .content p {
+        margin: 20px 0 0 0;
+        font-size: 15px;
+    }
+    
+    .contactForm button {
+        padding: 8px;
+    }
+}

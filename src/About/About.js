@@ -1,12 +1,11 @@
 import React from 'react'
-import NavBar from '../Home/NavBar/Nav'
 import Style from './About.module.css'
-import Footer from '../Home/Footer/Footer'
+
 
 const About = () => {
   return (
     <>
-      <NavBar/>
+      
 
       <div>
         <div className={Style.image}></div>
@@ -59,7 +58,7 @@ const About = () => {
 
       </div>
 
-      <Footer/>
+      
      
     </>
   )
