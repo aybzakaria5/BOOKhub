@@ -12,7 +12,7 @@ const Contact = () => {
       </div>
 
       <div className={styles.divForm}>
-        <form className={styles.contactForm}>
+        <form className={styles.contactForm} >
           <label>
             Your Email Address
             <input type="email" placeholder="you@example.com" required />

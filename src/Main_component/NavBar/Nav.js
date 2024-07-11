@@ -6,7 +6,7 @@ import Navbar from 'react-bootstrap/Navbar';
 import Offcanvas from 'react-bootstrap/Offcanvas';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Style from './Nav.module.css'
-import logo from "./logo.jpg"
+import logo from "./loggo_.png"
 import "bootstrap-icons/font/bootstrap-icons.css";
 
 
@@ -15,10 +15,14 @@ function OffcanvasExample() {
   const expand = 'lg';
 
   return (
-    <Navbar expand={expand} className="bg-body-tertiary p-4 ">
+    <Navbar expand={expand} className="p-4" style={{borderBottom: "1px solid  #f1eee3  "}}>
       <Container fluid>
+        
 
-        <Navbar.Brand href="#" className={Style.logo}> <img src={logo} alt="" className={Style.logo_image}/> </Navbar.Brand>
+        <Navbar.Brand href="/" className={Style.logo}>
+          {/* <img src={logo} alt="" className={Style.logo_image}/>  */}
+          Ebook Odc
+        </Navbar.Brand>
 
         <Navbar.Toggle aria-controls={`offcanvasNavbar-expand-${expand}`} />
         <Navbar.Offcanvas
@@ -27,8 +31,8 @@ function OffcanvasExample() {
           placement="end"
         >
           <Offcanvas.Header closeButton>
-            <Offcanvas.Title id={`offcanvasNavbarLabel-expand-${expand}`}>
-              BookHub
+            <Offcanvas.Title id={`offcanvasNavbarLabel-expand-${expand}`} className={Style.logo}>
+              Ebook Odc
             </Offcanvas.Title>
           </Offcanvas.Header>
           <Offcanvas.Body>

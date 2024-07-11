@@ -1,34 +1,33 @@
 .Btns{
-    background-color: black;
-    color: #000000;
+    background: #dc3c31 !important;
     margin: 0 20px;
-    border: 1px solid #000;
+    border: 1px solid !important;
     transition: 0.5s ease-in-out;
+    font-weight: 600;
 }
 .Btns:hover{
-    background-color: rgb(0, 0, 0);
+    background: #d12317 !important;
     color: #ffffff;
     border: rgb(0, 0, 0);
 }
-
-
-
 .Link{
-    color: #000;
+    color: #162127;
     margin-left: 40px;
 }
 .logo{
     margin-left: 60px;
+    color: #dc3c31;
+    font-weight: 600;
 }
-.logo_image {
+.logo:hover{
+    color: #d12317;
+}
+
+
+/* .logo_image {
     width: 20px;
-    scale: 5;
-}
-.Search{
-    margin-right: 60px;
-
-}
-
+    scale: 6;
+} */
 
 @media screen and (max-width: 993px) {
     .Btns{
@@ -38,11 +37,6 @@
         margin-left: 0;
     } 
     .logo{
-        margin-left: 30px;
+        margin-left: 10px;
     }
-    .Search{
-        margin-right: 0;
-    
-    }
-    
 }

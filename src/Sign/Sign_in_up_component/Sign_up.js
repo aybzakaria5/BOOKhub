@@ -6,6 +6,7 @@ import styles from '../Sign.module.css'; // Import CSS module styles
 
 const SignUpForm = () => {
   return (
+    
     <form action="#" className={styles['sign-up-form']}>
       <h2 className={styles.title}>Sign up</h2>
       <div className={styles['input-field']}>

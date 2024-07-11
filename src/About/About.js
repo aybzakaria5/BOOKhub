@@ -14,7 +14,7 @@ const About = () => {
           <h2>About Us</h2>
           <br />
           <p>
-            Welcome to BookHub, a free service dedicated to helping millions of readers discover ebooks they'll love. We provide authors and publishers with powerful tools to drive sales and build a loyal fanbase. When you join, you'll receive:
+            Welcome to Ebook Odc, a free service dedicated to helping millions of readers discover ebooks they'll love. We provide authors and publishers with powerful tools to drive sales and build a loyal fanbase. When you join, you'll receive:
           </p>
           <ul>
             <li>&#x2022;Exclusive Deals: Unbeatable offers curated by our expert editorial team.</li>
@@ -28,7 +28,7 @@ const About = () => {
 
           <span>READERS</span>
           <p>
-            Discover <em>how BookHub works</em>  and  <em>read testimonials</em> from our satisfied members.
+            Discover <em>how Ebook Odc works</em>  and  <em>read testimonials</em> from our satisfied members.
           </p>
           <br />
 

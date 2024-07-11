@@ -1,7 +1,7 @@
 .title {
     margin-top: 50px;
     font-size: 2em;
-    color: #333;
+    color: #162127;
     font-family: Playfair Display, "Playfair Display-fallback", Lora, "Lora-fallback", Georgia, serif;
     text-align: center;
 }
@@ -36,14 +36,15 @@
 }
 
 .btnn a {
-    border: 1px solid #000;
     border-radius: 25px;
     transition: 0.5s ease-in-out;
     cursor: pointer;
+    background: #dc3c31;
+    color: #fff;
 }
 
 .btnn a:hover {
-    background: #000;
+    background: #aa1a10;
     color: #fff;
 }
 
