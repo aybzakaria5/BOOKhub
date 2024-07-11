@@ -1,0 +1,119 @@
+.background {
+    background-color: #dc3c31; 
+    background-size: cover;
+    background-position: center;
+    padding: 50px 20px;
+    position: relative;
+}
+  
+.content {
+    text-align: center;
+    color: white;
+    max-width: 80%; 
+    margin: 0 auto; 
+    font-family: 'Helvetica Neue', Helvetica, sans-serif;
+}
+  
+.content h1 {
+    margin: 0;
+    font-size: 3rem;
+}
+  
+.content p {
+    margin: 20px 0 30px 0;
+    font-size: 20px;
+}
+  
+.divForm {
+    max-width: 600px;
+    margin: -30px auto 0 auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    position: relative;
+    z-index: 1; 
+}
+  
+.contactForm {
+    display: flex;
+    flex-direction: column;
+}
+  
+.contactForm label {
+    margin-bottom: 10px;
+    color: #333;
+}
+  
+.contactForm input, .contactForm textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.contactForm input:focus, 
+.contactForm textarea:focus , #category_select:focus{
+    border-color: #000000;
+    box-shadow: 0 0 0px rgba(0, 0, 0, 0.5);
+}
+
+.filee input {
+    padding: 0;
+}
+.contactForm textarea {
+    resize: vertical;
+}
+  
+.contactForm button {
+    padding: 10px;
+    background-color: #dc3c31;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 10px;
+    transition: 0.5s ease-in-out;
+}
+  
+.contactForm button:hover {
+    background-color: #d12317;
+}
+  
+
+  
+  
+
+@media (max-width: 600px) {
+    .divForm {
+        padding: 50px 10px 10px 10px;
+    }
+    .content h1 {
+        font-size: 2rem;
+    }
+      
+    .content p {
+        margin: 20px 0 0 0;
+        font-size: 15px;
+    }
+    
+    .contactForm button {
+        padding: 8px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

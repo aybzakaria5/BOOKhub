@@ -6,6 +6,7 @@ import Catalogue from './Catalogue/Catalogue';
 import Books from './Catalogue/Categorie/Books/Books';
 import Contact from './Contact/Contact';
 import Sign from './Sign/Sign';
+import Add from './Add_book/Add';
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
           <Route path="books/:category" element={<Books />} />
           <Route path="contact" element={<Contact />} />
           <Route path="sign" element={<Sign/>} />
+          <Route path="addBook" element={<Add/>} />
         </Route>
       </Routes>
     </Router>
