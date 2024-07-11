@@ -1,12 +1,13 @@
 .footer{
     padding-top: 100px;
+    background: transparent;
 }
 
 .footer_content{
     margin:  30px 100px;
 }
 .logo_footer{
-    width: 6rem;
+    width: 10rem;
     padding-bottom: 30px;
 
 }

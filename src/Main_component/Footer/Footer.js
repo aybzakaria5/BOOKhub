@@ -3,7 +3,7 @@ import { Footer } from "flowbite-react";
 import { BsDribbble, BsFacebook, BsGithub, BsInstagram, BsTwitter } from "react-icons/bs";
 import "flowbite/dist/flowbite.css";
 import Style from './Footer.module.css'
-import logo from "./logo.jpg"
+import logo from "./loggo_.png"
 
 
 const Foooter = () => {
@@ -27,10 +27,10 @@ const Foooter = () => {
                         <div>
                         <Footer.Title title="Quick Liens" />
                         <Footer.LinkGroup col>
-                            <Footer.Link href="#">Home</Footer.Link>
-                            <Footer.Link href="#">About</Footer.Link>
-                            <Footer.Link href="#">Books</Footer.Link>
-                            <Footer.Link href="#">Contact Us</Footer.Link>
+                            <Footer.Link href="/">Home</Footer.Link>
+                            <Footer.Link href="/about">About</Footer.Link>
+                            <Footer.Link href="/catalogue">Books</Footer.Link>
+                            <Footer.Link href="/contact">Contact Us</Footer.Link>
                         </Footer.LinkGroup>
                         </div>
                         <div>

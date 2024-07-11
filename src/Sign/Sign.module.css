@@ -1,5 +1,7 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&display=swap");
+/* Sign.module.css */
 
+/* Existing global styles and imports */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&display=swap");
 
 .container {
   position: relative;
@@ -29,7 +31,9 @@
   z-index: 5;
 }
 
-form {
+/* Remove the generic form styling and use specific selectors */
+form.sign-in-form,
+form.sign-up-form {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -129,7 +133,7 @@ form.sign-in-form {
 
 .btn {
   width: 150px;
-  background-color: #5995fd;
+  background-color: #f63729;
   border: none;
   outline: none;
   height: 49px;
@@ -143,8 +147,9 @@ form.sign-in-form {
 }
 
 .btn:hover {
-  background-color: #4d84e2;
+  background-color: #dc3c31;
 }
+
 .panels-container {
   position: absolute;
   height: 100%;
@@ -163,7 +168,7 @@ form.sign-in-form {
   top: -10%;
   right: 48%;
   transform: translateY(-50%);
-  background-image: linear-gradient(-45deg, #4481eb 0%, #04befe 100%);
+  background: linear-gradient(90deg, hsla(358, 87%, 71%, 1) 30%, hsla(4, 65%, 58%, 1) 74%);
   transition: 1.8s ease-in-out;
   border-radius: 50%;
   z-index: 6;
@@ -352,14 +357,14 @@ form.sign-in-form {
     transform: translateY(-300px);
   }
 
-  .container.sign-up-mode .right-panel .image,
-  .container.sign-up-mode .right-panel .content {
-    transform: translateY(0px);
-  }
-
   .right-panel .image,
   .right-panel .content {
     transform: translateY(300px);
+  }
+
+  .container.sign-up-mode .right-panel .image,
+  .container.sign-up-mode .right-panel .content {
+    transform: translateY(0px);
   }
 
   .container.sign-up-mode .signin-signup {
@@ -369,7 +374,8 @@ form.sign-in-form {
 }
 
 @media (max-width: 570px) {
-  form {
+  form.sign-in-form,
+  form.sign-up-form {
     padding: 0 1.5rem;
   }
 
