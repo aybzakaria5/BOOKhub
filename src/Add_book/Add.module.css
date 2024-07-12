@@ -1,38 +1,42 @@
-.background {
-    background-color: #dc3c31; 
-    background-size: cover;
-    background-position: center;
-    padding: 50px 20px;
-    position: relative;
-}
-  
-.content {
-    text-align: center;
-    color: white;
-    max-width: 80%; 
-    margin: 0 auto; 
-    font-family: 'Helvetica Neue', Helvetica, sans-serif;
-}
-  
-.content h1 {
-    margin: 0;
-    font-size: 3rem;
-}
-  
-.content p {
-    margin: 20px 0 30px 0;
-    font-size: 20px;
-}
-  
-.divForm {
-    max-width: 600px;
-    margin: -30px auto 0 auto;
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
     padding: 20px;
-    background-color: white;
+}
+  
+.formContainer {
+    flex: 1;
+    max-width: 500px;
+    padding: 20px;
+}
+
+
+.Content h1{
+    color: #162127;
+    font-size: 30px;
+    margin-bottom: 15px;
+}
+
+.Content p{
+    color: #162127;
+    font-size: 15px;
+    margin-bottom: 30px;
+}
+
+  
+.imageContainer {
+    flex: 1;
+    max-width: 500px;
+    padding: 20px;
+}
+  
+.imageContainer img {
+    width: 100%;
+    height: auto;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    position: relative;
-    z-index: 1; 
 }
   
 .contactForm {
@@ -45,7 +49,8 @@
     color: #333;
 }
   
-.contactForm input, .contactForm textarea {
+.contactForm input,
+.contactForm textarea {
     width: 100%;
     padding: 10px;
     margin-top: 5px;
@@ -53,16 +58,18 @@
     border-radius: 4px;
     box-sizing: border-box;
 }
-
-.contactForm input:focus, 
-.contactForm textarea:focus , #category_select:focus{
+  
+.contactForm input:focus,
+.contactForm textarea:focus,
+#category_select:focus {
     border-color: #000000;
     box-shadow: 0 0 0px rgba(0, 0, 0, 0.5);
 }
-
-.filee input {
+  
+.fileLabel input {
     padding: 0;
 }
+  
 .contactForm textarea {
     resize: vertical;
 }
@@ -81,39 +88,26 @@
 .contactForm button:hover {
     background-color: #d12317;
 }
-  
 
-  
-  
-
-@media (max-width: 600px) {
-    .divForm {
-        padding: 50px 10px 10px 10px;
-    }
-    .content h1 {
-        font-size: 2rem;
-    }
-      
-    .content p {
-        margin: 20px 0 0 0;
-        font-size: 15px;
-    }
-    
-    .contactForm button {
-        padding: 8px;
-    }
+#category_select{
+    margin-top: 10px;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
+@media (max-width: 900px) {
+    .imageContainer {
+      display: none;
+    }
+}
+  
+@media (max-width: 768px) {
+    .formContainer,
+    .imageContainer {
+      max-width: 100%;
+      padding: 10px;
+    }
+  
+    .contactForm button {
+      padding: 8px;
+    }
+}
+  
