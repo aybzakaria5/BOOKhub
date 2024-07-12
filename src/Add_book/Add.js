@@ -4,36 +4,42 @@ import { FileInput, Select } from "flowbite-react";
 import { Cloudinary } from '@cloudinary/url-gen';
 import { AdvancedImage } from '@cloudinary/react';
 
-
 const Add = () => {
   const [coverImage, setCoverImage] = useState('');
   const [uploadError, setUploadError] = useState('');
+  const [file, setFile] = useState(null);
 
-  const handleImageUpload = async (event) => {
-    const file = event.target.files[0];
-    if (!file) return;
-  
+  const handleFileChange = (event) => {
+    setFile(event.target.files[0]);
+  };
+
+  const handleFormSubmit = async (event) => {
+    event.preventDefault();
+    if (!file) {
+      setUploadError('Please select an image to upload.');
+      return;
+    }
+
     const formData = new FormData();
     formData.append('file', file);
-    formData.append('upload_preset', 'Ebookodc');
-  
+    formData.append('upload_preset', 'Ebookodc'); // replace 'Ebookodc' with your actual upload preset
+
     try {
       const response = await fetch('https://api.cloudinary.com/v1_1/dkwd4hr1p/image/upload', {
         method: 'POST',
         body: formData,
       });
       const data = await response.json();
-      console.log('Upload response:', data); 
+      console.log('Upload response:', data);
       setCoverImage(data.secure_url);
       setUploadError('');
-      alert("done")
+      alert("Image upload successful!");
     } catch (error) {
-      console.error('Error uploading image:', error); 
+      console.error('Error uploading image:', error);
       setUploadError('Failed to upload image');
-      alert("fail")
+      alert("Image upload failed");
     }
   };
-  
 
   return (
     <div className={Style.container}>
@@ -42,10 +48,15 @@ const Add = () => {
           <h1>Add your book</h1>
           <p>Get started by adding your book to our library. You can add as many books as you'd like.</p>
         </div>
-        <form className={Style.contactForm}>
+        <form className={Style.contactForm} onSubmit={handleFormSubmit}>
           <label className={Style.fileLabel}>
             Cover image
-            <FileInput id="file-upload-helper-text" accept="image/png, image/jpeg" onChange={handleImageUpload} helperText="File accepted: PNG, JPG." />
+            <FileInput
+              id="file-upload-helper-text"
+              accept="image/png, image/jpeg"
+              onChange={handleFileChange}
+              helperText="File accepted: PNG, JPG."
+            />
             {uploadError && <p className={Style.error}>{uploadError}</p>}
           </label>
 
