@@ -1,20 +1,59 @@
-import React from 'react';
+import React, { useState } from 'react';
 import Style from './Add.module.css';
 import { FileInput, Select } from "flowbite-react";
+import { Cloudinary } from '@cloudinary/url-gen';
+import { AdvancedImage } from '@cloudinary/react';
+
 
 const Add = () => {
+  const [coverImage, setCoverImage] = useState('');
+  const [uploadError, setUploadError] = useState('');
+
+  const handleImageUpload = async (event) => {
+    const file = event.target.files[0];
+    if (!file) return;
+  
+    const formData = new FormData();
+    formData.append('file', file);
+    formData.append('upload_preset', 'Ebookodc');
+  
+    try {
+      const response = await fetch('https://api.cloudinary.com/v1_1/dkwd4hr1p/image/upload', {
+        method: 'POST',
+        body: formData,
+      });
+      const data = await response.json();
+      console.log('Upload response:', data); 
+      setCoverImage(data.secure_url);
+      setUploadError('');
+      alert("done")
+    } catch (error) {
+      console.error('Error uploading image:', error); 
+      setUploadError('Failed to upload image');
+      alert("fail")
+    }
+  };
+  
+
   return (
     <div className={Style.container}>
       <div className={Style.formContainer}>
         <div className={Style.Content}>
-            <h1>Add your book</h1>
-            <p>Get started by adding your book to our library. You can add as many books as you'd like.</p>
+          <h1>Add your book</h1>
+          <p>Get started by adding your book to our library. You can add as many books as you'd like.</p>
         </div>
         <form className={Style.contactForm}>
           <label className={Style.fileLabel}>
             Cover image
-            <FileInput id="file-upload-helper-text" accept="image/png, image/jpeg" helperText="File accepted: PNG, JPG." />
+            <FileInput id="file-upload-helper-text" accept="image/png, image/jpeg" onChange={handleImageUpload} helperText="File accepted: PNG, JPG." />
+            {uploadError && <p className={Style.error}>{uploadError}</p>}
           </label>
+
+          {coverImage && (
+            <div className={Style.imagePreview}>
+              <AdvancedImage cldImg={new Cloudinary({ cloud: { cloudName: 'dkwd4hr1p' } }).image(coverImage)} />
+            </div>
+          )}
 
           <label>
             Title
