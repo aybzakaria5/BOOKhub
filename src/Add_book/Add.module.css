@@ -13,6 +13,10 @@
 }
 
 
+.error{
+    color: red;
+}
+
 .Content h1{
     color: #162127;
     font-size: 30px;

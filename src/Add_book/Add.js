@@ -1,8 +1,7 @@
 import React, { useState } from 'react';
 import Style from './Add.module.css';
 import { FileInput, Select } from "flowbite-react";
-import { Cloudinary } from '@cloudinary/url-gen';
-import { AdvancedImage } from '@cloudinary/react';
+
 
 const Add = () => {
   const [coverImage, setCoverImage] = useState('');
@@ -22,7 +21,7 @@ const Add = () => {
 
     const formData = new FormData();
     formData.append('file', file);
-    formData.append('upload_preset', 'Ebookodc'); // replace 'Ebookodc' with your actual upload preset
+    formData.append('upload_preset', 'Ebookodc');
 
     try {
       const response = await fetch('https://api.cloudinary.com/v1_1/dkwd4hr1p/image/upload', {
@@ -33,7 +32,6 @@ const Add = () => {
       console.log('Upload response:', data);
       setCoverImage(data.secure_url);
       setUploadError('');
-      alert("Image upload successful!");
     } catch (error) {
       console.error('Error uploading image:', error);
       setUploadError('Failed to upload image');
@@ -59,12 +57,6 @@ const Add = () => {
             />
             {uploadError && <p className={Style.error}>{uploadError}</p>}
           </label>
-
-          {coverImage && (
-            <div className={Style.imagePreview}>
-              <AdvancedImage cldImg={new Cloudinary({ cloud: { cloudName: 'dkwd4hr1p' } }).image(coverImage)} />
-            </div>
-          )}
 
           <label>
             Title
