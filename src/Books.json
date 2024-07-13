@@ -43,12 +43,6 @@
             "description": "An adventure novel that tells the tale of young Jim Hawkins and his encounters with pirates, buried treasure, and the infamous Long John Silver."
         }
     ],
-
-
-
-
-
-
     "Romance": [
         {
             "id": 1,
@@ -93,11 +87,7 @@
             "description": "A love story with a twist of time travel, focusing on the complex relationship between Clare Abshire and Henry DeTamble. Henry has a genetic disorder that causes him to unpredictably time travel, affecting their lives and love."
         }
     ],
-
-
-
-
-"Thriller": [
+    "Thriller": [
         {
             "id": 1,
             "title": "The Girl with the Dragon Tattoo",
@@ -141,12 +131,6 @@
             "description": "A suspenseful story set in a seaside town, where a seemingly perfect school fundraiser turns sinister. The lives of three women, each with their own secrets, intertwine as past events resurface."
         }
     ],
-
-
-
-
-
-
     "Memoir": [
         {
             "id": 1,
@@ -191,14 +175,6 @@
             "description": "Walter Isaacson provides an intimate portrait of Steve Jobs, co-founder of Apple Inc., delving into his visionary leadership, creative genius, and personal complexities that shaped the digital age."
         }
     ],
-
-
-
-
-
-
-
-
     "Travel": [
         {
             "id": 1,
@@ -243,13 +219,6 @@
             "description": "Paulo Coelho's allegorical novel follows Santiago, a shepherd boy, on a journey across the desert in search of a hidden treasure. Along the way, he discovers wisdom about life's journey and the pursuit of dreams."
         }
     ],
-
-
-
-
-
-
-    
     "Health": [
         {
             "id": 1,
@@ -294,13 +263,6 @@
             "description": "James Clear presents a practical guide to building good habits and breaking bad ones using small, incremental changes. He explores the science behind habit formation and behavior change."
         }
     ],
-
-
-
-
-
-
-
     "Poetry": [
         {
             "id": 1,
@@ -345,14 +307,7 @@
             "description": "Emily Dickinson's selected poems offer glimpses into her unique poetic voice, exploring themes of nature, mortality, love, and the human experience. Her concise yet profound verses continue to resonate with readers."
         }
     ],
-
-
-
-
-
-    
-
-   "Cooking": [
+    "Cooking": [
         {
             "id": 1,
             "title": "The Joy of Cooking",
@@ -396,8 +351,6 @@
             "description": "Marcella Hazan presents a comprehensive guide to traditional Italian cooking, covering essential techniques and authentic recipes that highlight the simplicity and quality of Italian cuisine."
         }
     ]
-
-
 
 
 }

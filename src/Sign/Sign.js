@@ -2,8 +2,7 @@ import React, { useState } from 'react';
 import styles from './Sign.module.css'; 
 import SignInForm from './Sign_in_up_component/Sign_in';
 import SignUpForm from './Sign_in_up_component/Sign_up';
-import dda from './isometric-online-education-concept1.png';
-import ddaa from './register.svg';
+import dda from './casino-background_2x-removebg-preview.png';
 
 const AuthContainer = () => {
   const [isSignUpMode, setIsSignUpMode] = useState(false);
@@ -48,7 +47,7 @@ const AuthContainer = () => {
               Sign in
             </button>
           </div>
-          <img src={ddaa} className={styles.image} alt="Member" />
+          <img src={dda} className={styles.image} alt="Reading" />
 
           
         </div>
