@@ -3,7 +3,6 @@ import Style from './Admin.module.css';
 import { BarChart } from '@mui/x-charts/BarChart';
 
 const Admin = () => {
-  
   return (
     <>
       <div className={Style.statistique}>
@@ -39,16 +38,25 @@ const Admin = () => {
       </div>
 
       <div className={Style.chartContainer}>
+        <div className={Style.chartWrapper}>
           <BarChart
-            series={[{ data: [35,4, 24, 34, 2, 12, 6, 8] }]}
+            series={[{ data: [35, 4, 24, 34, 2, 12, 6, 8] }]}
             height={290}
-            xAxis={[{ data: ['Adventure','Romance', 'Thriller', 'Memoir','Travel','Health','Poetry','Cooking'], scaleType: 'band' }]}
+            xAxis={[{ data: ['Adventure', 'Romance', 'Thriller', 'Memoir', 'Travel', 'Health', 'Poetry', 'Cooking'], scaleType: 'band' }]}
             margin={{ top: 10, bottom: 30, left: 40, right: 10 }}
             borderRadius={20}
           />
+        </div>
+        <div className={Style.chartWrapper}>
+          <BarChart
+            series={[{ data: [35, 4, 24, 34, 2, 12, 6, 8] }]}
+            height={290}
+            xAxis={[{ data: ['Adventure', 'Romance', 'Thriller', 'Memoir', 'Travel', 'Health', 'Poetry', 'Cooking'], scaleType: 'band' }]}
+            margin={{ top: 10, bottom: 30, left: 40, right: 10 }}
+            borderRadius={20}
+          />
+        </div>
       </div>
-
-
     </>
   );
 };

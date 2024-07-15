@@ -31,6 +31,7 @@ const Add = () => {
       const data = await response.json();
       console.log('Upload response:', data);
       setCoverImage(data.secure_url);
+      console.log(data.secure_url)
       setUploadError('');
     } catch (error) {
       console.error('Error uploading image:', error);
