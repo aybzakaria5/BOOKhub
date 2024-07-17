@@ -14,39 +14,39 @@ function Navbar() {
     <>
       <IconContext.Provider value={{ color: 'black' }}>
         <div className={Style.navbar}>
-          <Link to='#' className={Style['menu-bars']}>
+          <div className={Style['menu-bars']}>
             <FaIcons.FaBars onClick={showSidebar} />
-          </Link>
+          </div>
         </div>
         
         <nav className={sidebar ? `${Style['nav-menu']} ${Style.active}` : Style['nav-menu']}>
           <ul className={Style['nav-menu-items']} onClick={showSidebar}>
+
             <li className={Style['navbar-toggle']}>
-              <Link to='#' className={Style['menu-bars']}>
+              <div className={Style['menu-bars']}>
                 <AiIcons.AiOutlineClose style={{color:"white"}}/>
-              </Link>
+              </div>
             </li>
-            
+        
             <li className={Style['nav-text']}>
-              <Link to='#' >
+              <Link to='/admin' >
                 <AiIcons.AiFillHome style={{color:"white"}} />
                 <span>Home</span>
               </Link>
             </li>
-
             <li className={Style['nav-text']}>
               <Link to='#'>
                 <FaIcons.FaFileAlt style={{color:"white"}}/>
                 <span>Report</span>
               </Link>
             </li>
-
             <li className={Style['nav-text']}>
               <Link to='#'>
               <FaIcons.FaCartPlus style={{color:"white"}}/>
                 <span>Products</span>
               </Link>
             </li>
+
           </ul>
         </nav>
       </IconContext.Provider>
