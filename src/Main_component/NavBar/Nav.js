@@ -24,7 +24,7 @@ function OffcanvasExample() {
           Ebook Odc
         </Navbar.Brand>
 
-        <Navbar.Toggle aria-controls={`offcanvasNavbar-expand-${expand}`} />
+        <Navbar.Toggle aria-controls={`offcanvasNavbar-expand-${expand}`} style={{border:'none'}} />
         <Navbar.Offcanvas
           id={`offcanvasNavbar-expand-${expand}`}
           aria-labelledby={`offcanvasNavbarLabel-expand-${expand}`}
@@ -46,6 +46,9 @@ function OffcanvasExample() {
             
             <div className={Style.Btn_s}>
               <a href="sign"><Button  className={Style.Btns}>Sign in</Button></a>
+            </div>
+            <div className={Style.Btn_s}>
+              <a href="addbook"><Button  className={Style.Btns}>Add Book</Button></a>
             </div>
           </Offcanvas.Body>
         </Navbar.Offcanvas>
